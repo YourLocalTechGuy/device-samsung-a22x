@@ -11,7 +11,7 @@ deviceinfo_arch="aarch64"
 
 # Device related
 deviceinfo_chassis="handset"
-
+deviceinfo_drm=true
 # Boot image generation
 deviceinfo_bootimg_append_cmdline="true"
 
@@ -21,7 +21,7 @@ deviceinfo_flash_heimdall_partition_kernel="boot"
 deviceinfo_flash_heimdall_partition_rootfs="userdata"
 
 deviceinfo_dtb="samsung-a22x"
-deviceinfo_kernel_cmdline="bootopt=64S3,32N2,64N2 loop.max_part=7 console=ttyGS0,115200"
+deviceinfo_kernel_cmdline="bootopt=64S3,32N2,64N2 loop.max_part=7 console=ttyGS0,115200 loglevel=8 printk.time=1 initcall_debug=1"
 deviceinfo_generate_bootimg="true"
 deviceinfo_flash_pagesize="2048"
 deviceinfo_bootimg_qcdt="false"
