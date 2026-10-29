@@ -21,7 +21,7 @@ deviceinfo_flash_heimdall_partition_kernel="boot"
 deviceinfo_flash_heimdall_partition_rootfs="userdata"
 
 deviceinfo_dtb="mt6833-samsung-a22x"
-deviceinfo_kernel_cmdline="bootopt=64S3,32N2,64N2 loop.max_part=7 console=ttyGS0,115200 loglevel=8 printk.time=1 initcall_debug=1 cma=128M"
+deviceinfo_kernel_cmdline="bootopt=64S3,32N2,64N2 loop.max_part=7 console=ttyGS0,115200 loglevel=8 printk.time=1 initcall_debug=1 cma=128M firmware_class.path=/lib/firmware/postmarketos"
 deviceinfo_generate_bootimg="true"
 deviceinfo_flash_pagesize="2048"
 deviceinfo_bootimg_qcdt="false"
